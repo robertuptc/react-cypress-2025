@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='main-container'>
+        <h2>This is the title</h2>
+        <h3>Capital Sentence</h3>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
